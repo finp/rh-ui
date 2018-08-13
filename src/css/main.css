@@ -1,0 +1,33 @@
+main {
+  padding-bottom: 4rem;
+}
+
+.article-header {
+  display: flex;
+  font-size: 0.875rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+
+.article-header .crumbs {
+  flex: 1;
+  min-width: 0;
+}
+
+@media screen and (min-width: 769px) {
+  main.article {
+    padding-right: var(--width-main-gutter);
+    padding-left: var(--width-main-gutter);
+  }
+
+  main.home {
+    padding-right: var(--width-container-gutter);
+    padding-left: var(--width-container-gutter);
+  }
+
+  .article-header {
+    margin-bottom: 0;
+    align-items: flex-start;
+  }
+}

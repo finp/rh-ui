@@ -1,0 +1,34 @@
+= rh Documentation Site UI Prototype
+// Settings:
+:experimental:
+:hide-uri-scheme:
+// Variables:
+:current-release: v98
+// Project URIs:
+:uri-project: https://github.com/rh/docs-ui
+:uri-preview: https://cb-docs-ui.netlify.com
+// External URIs:
+:uri-antora: https://antora.org
+:uri-git: https://git-scm.com
+:uri-git-dl: {uri-git}/downloads
+:uri-gulp: http://gulpjs.com
+:uri-node: https://nodejs.org
+:uri-nvm: https://github.com/creationix/nvm
+:uri-nvm-install: {uri-nvm}#installation
+:uri-yarn: https://yarnpkg.com
+:uri-rh: https://rh.com
+
+Currently in prototype, this project will be used to generate the UI for the next version of the rh documentation site.
+You can find a preview of this UI online at {uri-preview}.
+
+== Use the UI
+
+To use this UI with Antora, add the following configuration to your playbook file:
+
+[source,yaml,subs=attributes+]
+----
+ui:
+  bundle:
+    url: ../rh-ui/build/ui-bundle.zip
+----
+
