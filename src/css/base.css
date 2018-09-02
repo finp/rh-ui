@@ -34,7 +34,7 @@
   --color-footer-text: var(--color-brand-white);
   --height-spacer: 1.5rem;
   /* --height-navbar: 4rem; */
-  --height-navbar: 4.875rem;
+  --height-navbar: 1.875rem;
   --height-to-body: calc(var(--height-navbar) + var(--height-spacer));
   --height-min-body: calc(100vh - var(--height-to-body));
   --height-nav: calc(var(--height-min-body) - var(--height-spacer));

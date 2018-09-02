@@ -31,7 +31,7 @@
   }
 
   var title = document.createElement('h3')
-  title.textContent = 'On This Page'
+  title.textContent = 'Tasks:'
   menu.appendChild(title)
   menu.appendChild(list)
 
